@@ -1,9 +1,7 @@
-import React from "react";
-
-export const Fruit = ({ name, price, emoji }) => {
+const Fruit = ({name, price, emoji}) => {
   return (
-    <li key={name}>
-      {emoji} {name} ${price}
-    </li>
-  );
-};
+    <div>{name} ${price} {emoji}</div>
+  )
+}
+
+export default Fruit

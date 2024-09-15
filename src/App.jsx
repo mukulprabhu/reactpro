@@ -1,5 +1,5 @@
 import Fruits from "./components/Fruits";
-import Hello from "./components/Hello";
+import MessageBox from "./components/MessageBox";
 function App() {
   const person = {
     name: "Rob",
@@ -10,6 +10,7 @@ function App() {
 
   return (
     <div className="App">
+      <MessageBox />
       <Fruits />
     </div>
   );

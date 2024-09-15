@@ -1,5 +1,5 @@
 import { useReducer, useState } from "react";
-import { Fruit } from "./Fruit";
+import Fruit from "./Fruit";
 
 const ifruits = [
   { name: "Mango", price: 10, emoji: "🥭" },
